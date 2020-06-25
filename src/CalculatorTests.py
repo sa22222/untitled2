@@ -11,18 +11,18 @@ class MyTestCase(unittest.TestCase):
 
     def test_calculator_addition(self):
         calculator = Calculator()
-        result = calculator.addition(1, 2)
-        self.assertEqual(3, result)
+        result = calculator.addition(91, 143)
+        self.assertEqual(234, result)
 
     def test_calculator_subrtraction(self):
         calculator = Calculator()
-        result = calculator.subtraction(1, 2)
-        self.assertEqual(-1, result)
+        result = calculator.subtraction(972, 425)
+        self.assertEqual(547, result)
 
     def test_calculator_multiplication(self):
         calculator = Calculator()
-        result = calculator.multiplication(1, 2)
-        self.assertEqual(2, result)
+        result = calculator.multiplication(499, 109)
+        self.assertEqual(54391, result)
 
     def test_calculator_division(self):
         calculator = Calculator()
@@ -36,8 +36,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_calculator_squareroot(self):
         calculator = Calculator()
-        result = calculator.squareroot(25)
-        self.assertEqual(5, result)
+        result = calculator.squareroot(17)
+        self.assertEqual(4.123106, result)
 
     def test_calculator_addition(self):
         calculator = Calculator()
