@@ -24,15 +24,15 @@ class MyTestCase(unittest.TestCase):
         result = calculator.multiplication(499, 109)
         self.assertEqual(54391, result)
 
-    def test_calculator_division(self):
+    def test_calculator_squareroot(self):
         calculator = Calculator()
-        result = calculator.division(4, 2)
+        result = calculator.division(4], 2)
         self.assertEqual(2, result)
 
     def test_calculator_square(self):
         calculator = Calculator()
-        result = calculator.square(8)
-        self.assertEqual(64, result)
+        result = calculator.square(78)
+        self.assertEqual(6084, result)
 
     def test_calculator_squareroot(self):
         calculator = Calculator()
@@ -41,8 +41,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_calculator_addition(self):
         calculator = Calculator()
-        result = calculator.addition(3, 2)
-        self.assertEqual(5, result)
+        result = calculator.addition(49, 359)
+        self.assertEqual(408, result)
 
 
 
