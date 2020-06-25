@@ -31,8 +31,8 @@ class MyTestCase(unittest.TestCase):
 
     def test_calculator_square(self):
         calculator = Calculator()
-        result = calculator.square(6)
-        self.assertEqual(36, result)
+        result = calculator.square(8)
+        self.assertEqual(64, result)
 
     def test_calculator_squareroot(self):
         calculator = Calculator()
